@@ -10,25 +10,23 @@ body {
     background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.container {
+header{
     width: 1200px;
     height: 80px;
     background-color: #1A1751;
 }
-
 nav {
+    width: 100%;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
 }
-
 .logomarca {
     width: 200px;
     height: 80px;
 }
-
 .pesquisa {
     width: 338px;
     height: 25px;
@@ -41,12 +39,7 @@ nav {
     color: white;
     border-radius: 0.3vw;
 }
-.login{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.carrinho{
+.login,.carrinho{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -58,9 +51,24 @@ nav {
     justify-content: space-between;
     font-size: 14px;
    }
-.login-text{
+.login-text,.carrinho-text{
     margin-top:0.4vw;
 }
-.carrinho-text{
-    margin-top:0.4vw;
+.menu{
+    width: 1200px;
+    height: 60px;
+    background-color: #8DCAC6;
+    
+}
+.menuList{
+    width: 1000px;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    margin-left:80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1A1751;
+    
 }
