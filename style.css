@@ -53,6 +53,7 @@ nav {
 
 .login,
 .carrinho {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +80,7 @@ nav {
 }
 
 .menuList {
+    cursor: pointer;
     width: 1000px;
     list-style-type: none;
     display: flex;
@@ -89,7 +91,6 @@ nav {
     font-weight: 600;
     color: #1A1751;
 }
-
 .bannerImage {
     height: 500px;
     width: 100%;
@@ -159,6 +160,10 @@ nav {
     color: black;
     margin-top: 0.8vw;
     line-height: 1.2vw;
+    
+}
+.nomeProduto:hover{
+    color:#29A60A;
 }
 .fotoEnomeProduto{
     display: flex;
