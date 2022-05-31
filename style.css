@@ -7,7 +7,8 @@ body {
     width: 1440px;
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #1A1751;
+    /* background-color: blue; */
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -22,6 +23,9 @@ nav {
     justify-content: center;
     align-items: center;
     color:white;
+}
+.container {
+    width: 1200px;
 }
 .logomarca {
     width: 200px;
@@ -70,5 +74,19 @@ nav {
     font-size: 16px;
     font-weight: 600;
     color: #1A1751;
-    
+}
+.banner{
+    position: relative;
+}
+.bannerImage{
+    height: 500px;
+    width: 100%;  
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.promocoes{
+    background-color: white;
+    z-index: 9;
+    width: 50px;
 }
