@@ -91,10 +91,43 @@ nav {
     font-weight: 600;
     color: #1A1751;
 }
+
+.banner {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
 .bannerImage {
     height: 500px;
     width: 100%;
+    position: absolute;
+    opacity: 0.8;
     margin-bottom: 0px;
+}
+
+.overlay {
+    width: 215px;
+    height: 50px;
+    margin: 1vw;
+    opacity: 1;
+    z-index: 1;
+    background-color: #29A60A;
+    text-align: center;
+}
+
+.overlay span {
+    font-weight: 700;
+    color: white;
+}
+
+.produtosPromo {
+    width: 215px;
+    height: 360px;
+    z-index: 1;
 }
 
 .secao {
@@ -138,9 +171,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-   border-bottom-left-radius: 1vw;
-   border-bottom-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
 }
+
 .valorProduto {
     width: 150px;
     height: 40px;
@@ -148,24 +182,28 @@ nav {
     text-align: center;
     font-weight: 700;
 }
-.produtoImage{
+
+.produtoImage {
     width: 100px;
     height: 100px;
 
 }
-.nomeProduto{
+
+.nomeProduto {
     width: 150px;
     height: 50px;
     font-size: 14px;
     color: black;
     margin-top: 0.8vw;
     line-height: 1.2vw;
-    
+
 }
-.nomeProduto:hover{
-    color:#29A60A;
+
+.nomeProduto:hover {
+    color: #29A60A;
 }
-.fotoEnomeProduto{
+
+.fotoEnomeProduto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,7 +211,8 @@ nav {
     text-align: center;
     padding: 2vw;
 }
-footer{
+
+footer {
     width: 100%;
     height: 300px;
     background-color: #1A1751;
@@ -181,43 +220,51 @@ footer{
     align-items: center;
     justify-content: space-between;
 
-   
+
 }
-.colunaFooter{
+
+.colunaFooter {
     width: 250px;
-    height: 250px; 
+    height: 250px;
     margin: 1vw;
-   color: white;
-   display: flex;
-   /* justify-content: center; */
-   flex-direction: column;
-   text-align: center;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
 }
-.tituloFooter{
+
+.tituloFooter {
     font-weight: 700;
     margin-bottom: 0.7vw;
     margin-top: 1vw;
 }
-.ulFooter{
-    list-style-type: none;   
+
+.ulFooter {
+    list-style-type: none;
 }
-.listaFooter{
-   margin-top: 0.7vw;
+
+.listaFooter {
+    margin-top: 0.7vw;
 }
-.icones{
+
+.icones {
     display: grid;
     margin-top: 0.5vw;
     align-items: center;
     grid-template-columns: repeat(2, 0.5fr);
 }
-.icone{
+
+.icone {
     width: 3vw;
     height: 3vw;
-    margin-bottom:1vw;
+    margin-bottom: 1vw;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.linkFooter{
+
+.linkFooter {
     color: white;
 }
