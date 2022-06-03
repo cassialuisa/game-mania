@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -22,11 +22,11 @@ header {
 }
 
 nav {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
@@ -37,13 +37,15 @@ nav {
 .logomarca {
     width: 200px;
     height: 80px;
-    margin-right: 15vw;
+    margin-right: 5vw;
 }
-
-.pesquisa {
+.pesquisaContainer{
+    display: flex;
+}
+.pesquisa {  
     width: 338px;
     height: 25px;
-    /* margin-left: 15vw; */
+    margin-left: 5vw;
     margin-right: 1vw;
     font-size: 16px;
     text-align: center;
@@ -53,29 +55,29 @@ nav {
     border-radius: 0.3vw;
 }
 
-.login
-.carrinho {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.iconify lupa{
-    margin-right: 10vw;
-}
 .iconesNavbar {
     width: 120px;
-    margin-left: 50px;
+    margin-left: 20vw;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+}
+.login,.carrinho{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
 }
 
 .login-text,
 .carrinho-text {
     margin-top: 0.4vw;
 }
-
+.lupa{
+    margin-top: 0.3vw;
+    cursor: pointer;
+}
 .menu {
     width: 100%;
     height: 60px;
@@ -150,24 +152,27 @@ nav {
     margin-top: 4vw;
     opacity: 1;
     z-index: 1;
-    color:#1A1751;
+    color: #1A1751;
     background-color: #29A60A;
 }
+
 .valorDesconto {
     font-size: 100px;
     font-weight: 500;
     margin-top: 2vw;
     margin-left: 1.5vw;
 }
+
 .porcentagem {
     font-size: 80px;
     font-weight: 500;
     text-align: end;
     margin-top: 7vw;
     margin-right: 1.5vw;
-    
+
 }
-.infoAdicionalBanner{
+
+.infoAdicionalBanner {
     display: flex;
     position: absolute;
     /* margin-top: 5vw; */
@@ -177,7 +182,7 @@ nav {
     width: 100px;
     height: 60px;
     margin-top: 2vw;
-    color:white;
+    color: white;
     background-color: #1A1751;
     border-radius: 50px;
     justify-content: center;
@@ -185,7 +190,8 @@ nav {
     align-items: center;
 
 }
-.infoAdicionalBanner2{
+
+.infoAdicionalBanner2 {
     display: flex;
     position: absolute;
     margin-top: 17vw;
@@ -193,7 +199,7 @@ nav {
     z-index: 1;
     width: 100px;
     height: 60px;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #1A1751;
     border-radius: 50px;
     align-items: center;
@@ -201,16 +207,19 @@ nav {
     flex-direction: column;
     align-items: center;
 }
-.infoAdicionalBanner span{
+
+.infoAdicionalBanner span {
     font-size: 28px;
     width: 50px;
     height: 35px;
 }
-.infoAdicionalBanner2 span{
+
+.infoAdicionalBanner2 span {
     font-size: 28px;
     width: 50px;
     height: 35px;
 }
+
 .secao {
     display: flex;
     width: 100%;
