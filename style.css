@@ -29,6 +29,44 @@ nav {
     color: white;
 }
 
+/* .nav-2 {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-2 #Links {
+    display: none;
+
+}
+
+.nav-2 a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.nav-2 a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .active {
+    /* background-color: #04AA6D; */
+/* */
+
+
+
+
+
+
+
+
 .container {
     width: 1400px;
 }
@@ -38,10 +76,12 @@ nav {
     height: 80px;
     margin-right: 5vw;
 }
-.pesquisaContainer{
+
+.pesquisaContainer {
     display: flex;
 }
-.pesquisa {  
+
+.pesquisa {
     width: 338px;
     height: 25px;
     margin-left: 5vw;
@@ -54,6 +94,12 @@ nav {
     border-radius: 0.3vw;
 }
 
+/* .menuHamburguer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -50%;
+} */
+
 .iconesNavbar {
     width: 120px;
     margin-left: 20vw;
@@ -61,7 +107,9 @@ nav {
     justify-content: space-between;
     font-size: 14px;
 }
-.login,.carrinho{
+
+.login,
+.carrinho {
     width: 50px;
     display: flex;
     flex-direction: column;
@@ -74,10 +122,12 @@ nav {
     margin-top: 0.4vw;
     color: white;
 }
-.lupa{
+
+.lupa {
     margin-top: 0.3vw;
     cursor: pointer;
 }
+
 .menu {
     width: 100%;
     height: 60px;
@@ -168,7 +218,7 @@ nav {
     display: flex;
     position: absolute;
     /* margin-top: 5vw; */
-    margin-right: 30vw;
+    margin-right: 31vw;
     z-index: 1;
     z-index: 1;
     width: 100px;
@@ -187,7 +237,7 @@ nav {
     display: flex;
     position: absolute;
     margin-top: 17vw;
-    margin-right: 8vw;
+    margin-right: 7vw;
     z-index: 1;
     width: 100px;
     height: 60px;
@@ -351,8 +401,47 @@ a {
     color: white;
 }
 
-@media screen and (max-widht:1200px){
-    .container{
-        width: 90vw;
-    }
+.topnav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.topnav #myLinks {
+    display: none;
+    
+    text-align: center;
+    float: right;
+}
+
+.topnav a {
+    font-weight: 700;
+    color: white;
+    background-color: #1A1751;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background-color: #29A60A;
+    margin-top: 1.5vh;
+    margin-right: 1vw;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    color: white;
+}
+
+.active img {
+    width: 200px;
+    height: 50px;
+    margin-right: 5vw;
 }

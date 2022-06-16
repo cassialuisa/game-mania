@@ -4,46 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>Home - Game Mania</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="style.css">
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <nav>
-                <a href="index.html"i>
-                    <img class="logomarca" src="images\logo.png" />
+            <div class="topnav">
+                <a href="index.html" class="active"> <img class="logomarca" src="images\logo.png" /></a>
+                <div id="myLinks">
+                    <a href="login.html">Login</a>
+                    <a href="shoppingCart.html">Meu carrinho</a>
+                    <a href="#about">Sobre nós</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
                 </a>
-                <div class="pesquisaContainer">
-                    <input class="pesquisa" placeholder="Pesquisar" />
-                    <div class="lupa">
-                        <span class="iconify" data-icon="simple-line-icons:magnifier" style="color: white;"
-                            data-width="20" data-height="20"></span>
-                    </div>
-                </div>
-
-                <div class="iconesNavbar">
-                    <a href="login.html">
-                        <div class="login">
-                            <span class="iconify" data-icon="carbon:user-avatar" style="color: white;" data-width="30"
-                                data-height="30" data-flip="horizontal"></span>
-                            <span class="login-text">Login</span>
-                        </div>
-                    </a>
-                    <a href="shoppingCart.html">
-                        <div class="carrinho">
-                            <span class="iconify" data-icon="ant-design:shopping-cart-outlined" style="color: white;"
-                            data-width="30" data-height="30" data-flip="horizontal"></span>
-                            <span class="carrinho-text">Carrinho</span>
-                        </div>
-                    </a>
-                </div>
-            </nav>
-
+            </div>
         </header>
         <main>
             <div class="menu">
@@ -67,7 +50,7 @@
                 </div>
                 <div class="infoAdicionalBanner"><span>Até</span></div>
                 <div class="infoAdicionalBanner2"><span>OFF</span></div>
-             
+
             </section>
             <section class="secao">
                 <h3 class="textoSecao">Destaques</h3>
